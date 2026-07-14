@@ -137,13 +137,34 @@ function SalesPage() {
 
   const proofs = useMemo(
     () => [
-      { src: "https://i.imgur.com/oq4Xn1R.png", alt: "Testimonio del material" },
-      { src: "https://i.imgur.com/TpretWK.png", alt: "Testimonio del material" },
-      { src: "https://i.imgur.com/hDPWqba.png", alt: "Testimonio del material" },
-      { src: "https://i.imgur.com/ZJ0Ka1Q.png", alt: "Testimonio del material" },
-      { src: "https://i.imgur.com/EkaCvKh.png", alt: "Testimonio del material" },
-      { src: "https://i.imgur.com/rSvTotm.png", alt: "Testimonio del material" },
-      { src: "https://i.imgur.com/G8cm5OG.png", alt: "Testimonio del material" },
+      {
+        src: "https://goosdtech.online/wp-content/uploads/2026/07/imagem-5.webp",
+        alt: "Testimonio del material",
+      },
+      {
+        src: "https://goosdtech.online/wp-content/uploads/2026/07/imagem-7.webp",
+        alt: "Testimonio del material",
+      },
+      {
+        src: "https://goosdtech.online/wp-content/uploads/2026/07/imagem-8.webp",
+        alt: "Testimonio del material",
+      },
+      {
+        src: "https://goosdtech.online/wp-content/uploads/2026/07/imagem-9.webp",
+        alt: "Testimonio del material",
+      },
+      {
+        src: "https://goosdtech.online/wp-content/uploads/2026/07/imagem-10.webp",
+        alt: "Testimonio del material",
+      },
+      {
+        src: "https://goosdtech.online/wp-content/uploads/2026/07/imagem-12.webp",
+        alt: "Testimonio del material",
+      },
+      {
+        src: "https://goosdtech.online/wp-content/uploads/2026/07/imagem-13.webp",
+        alt: "Testimonio del material",
+      },
     ],
     [],
   );
@@ -180,11 +201,12 @@ function SalesPage() {
 
         <div className="mt-7 overflow-hidden rounded-3xl bg-card hairline">
           <img
-            src="https://i.imgur.com/ah6vNnp.png"
+            src="https://goosdtech.online/wp-content/uploads/2026/07/imagem-16.webp"
             alt="Apostilla y fichas impresas del material"
             width={1024}
             height={1024}
             className="h-auto w-full"
+            referrerPolicy="no-referrer"
           />
         </div>
 
@@ -232,12 +254,13 @@ function SalesPage() {
 
         <div className="mt-8 overflow-hidden rounded-3xl bg-card hairline">
           <img
-            src="https://i.imgur.com/frMfT4B.png"
+            src="https://goosdtech.online/wp-content/uploads/2026/07/imagem-1.webp"
             alt="Terapeuta sosteniendo una ficha lista para aplicar"
             width={1024}
             height={1024}
             loading="lazy"
             className="h-auto w-full"
+            referrerPolicy="no-referrer"
           />
           <div className="border-t border-[color:var(--color-border)] px-5 py-4 text-center text-sm text-[color:var(--color-muted-foreground)]">
             Abrir · elegir · imprimir · aplicar
@@ -246,9 +269,9 @@ function SalesPage() {
 
         <div className="mt-4 grid grid-cols-3 gap-2 sm:gap-4">
           {[
-            "https://i.imgur.com/jA9keUj.png",
-            "https://i.imgur.com/NC2jGOt.png",
-            "https://i.imgur.com/qjKmk3H.png",
+            "https://goosdtech.online/wp-content/uploads/2026/07/imagem-17.webp",
+            "https://goosdtech.online/wp-content/uploads/2026/07/imagem-18.webp",
+            "https://goosdtech.online/wp-content/uploads/2026/07/imagem-21.webp",
           ].map((src, i) => (
             <div
               key={i}
@@ -262,6 +285,7 @@ function SalesPage() {
                 height={512}
                 loading="lazy"
                 className="h-auto w-full object-cover transition-transform duration-500"
+                referrerPolicy="no-referrer"
               />
               <div className="absolute right-2 bottom-2 flex h-7 w-7 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-sm opacity-0 transition-opacity group-hover:opacity-100 sm:right-3 sm:bottom-3 sm:h-8 sm:w-8">
                 <svg
@@ -380,6 +404,7 @@ function SalesPage() {
                   loading="eager"
                   decoding="async"
                   className="aspect-square h-full w-full object-cover [backface-visibility:hidden] [transform:translate3d(0,0,0)]"
+                  referrerPolicy="no-referrer"
                 />
               </figure>
             ))}
@@ -405,12 +430,13 @@ function SalesPage() {
 
           <div className="mt-6 overflow-hidden rounded-2xl hairline">
             <img
-              src="https://i.imgur.com/frMfT4B.png"
+              src="https://goosdtech.online/wp-content/uploads/2026/07/imagem-1.webp"
               alt="Todos los materiales del paquete"
               width={1024}
               height={1024}
               loading="lazy"
               className="h-auto w-full"
+              referrerPolicy="no-referrer"
             />
           </div>
 
